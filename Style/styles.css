@@ -1,0 +1,148 @@
+/*global variables*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46PX;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 24px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+}
+
+
+/*HEADER*/
+/*align header in middle */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+/*navbar custimization*/
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*navebar list*/
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+/*navebar list anchor*/
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+/*navebar list anchor hover*/
+#navbar li a:hover,
+#navbar li a.active {       /*active shows what page you are on*/
+    color: purple;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: purple;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+
+/*HOME PAGE*/
+/*Hero Section*/
+#hero {
+    background-image: url(../Images/hero1.avif);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h2 {
+    padding-bottom: 10px;
+    color: rgb(255, 0, 0);
+}
+
+#hero button {
+    background-color: transparent;
+    color: rgb(255, 0, 0);
+    border: 0;
+    cursor: pointer;
+    font-weight: 600;
+    padding-top: 3px;
+}
+
+/*Feature Section*/
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid rgb(0, 255, 13);
+}
+
+/*Shop Page*/
+
+/*Single Product*/
+
+/*Blog Page*/
