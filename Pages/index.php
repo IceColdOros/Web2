@@ -18,153 +18,54 @@
     
         <div>
             <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a class="active" href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <li><a class="active" href="index.php">Home</a></li>
+                <li><a href="shop.php">Shop</a></li>
+                <li><a href="blog.php">Blog</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="cart.php"><i class="far fa-shopping-bag"></i></a></li>
             </ul>
         </div>
     
     </section>
 
-    <section id="page-header">
-        <h2>#savemore</h4>
-        <p>save up 15% on sport accecories </p>
+    <section id="hero">
+        <h2>TradeHub</h4>
+        <h4>Empowering informal traders across South Africa</h2>
+        <button>Shop Now</button>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="../Images/cat1tech.png" alt="">
+            <h6>Technology</h6>
+        </div>
+        <div class="fe-box">
+            <img src="../Images/cat2clothes.png" alt="">
+            <h6>Clothes</h6>
+        </div>
+        <div class="fe-box">
+            <img src="../Images/cat3book.png" alt="">
+            <h6>Books</h6>
+        </div>
+        <div class="fe-box">
+            <img src="../Images/cat4home.png" alt="">
+            <h6>Home</h6>
+        </div>
+        <div class="fe-box">
+            <img src="../Images/cat5sport.png" alt="">
+            <h6>Sport</h6>
+        </div>
+        <div class="fe-box">
+            <img src="../Images/cat6car.png" alt="">
+            <h6>Car</h6>
+        </div>
     </section>
 
     <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Trending products from local </p>
         <div class="pro-container">
-            <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="../Products/pro1example.webp" alt="">
-                <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R450</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
-                <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R450</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
-                <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R450</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
-                <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R450</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
-                <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R450</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
-                <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R450</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
-                <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R450</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
-                <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R450</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-
             <div class="pro">
                 <img src="../Products/pro1example.webp" alt="">
                 <div class="des">
@@ -296,76 +197,149 @@
         </div>
     </section>
 
-    <section id="pagination" class="section-p1">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
+    <section id="banner" class="section-m1">
+        <h4>Discounted Items</h4>
+        <h2>Up to <span>15% Off</span> - All sport accessories</h2>
+        <button class="normal">See More</button>
     </section>
 
-    <section id="newsletter" class="section-p1 section-m1">
-        <div class="newstext">
-            <h4>Sign Up For News Letter</h4>
-            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="Your email address">
-            <button>Sign Up</button>
-        </div>
-    </section>
-
-    <footer class="section-p1">
-        <div class="col">
-            <img class="logo" src="" alt=""> 
-            <h4>Contact</h4>
-            <p><strong>Address: </strong>22 Umgazi Rd, Ashlea Gardens, Pretoria, 0081</p>
-            <p><strong>Phone: </strong>012 348 3060</p>
-            <p><strong>Hours: </strong>08:00 - 16:30, Mon - Fri</p>
-            <div class="follow">
-                <h4>Follow Us</h4>
-                <div class="icon">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-pinterest-p"></i>
-                    <i class="fab fa-youtube"></i>
+    <section id="product1" class="section-p1">
+        <h2>New Arrivals</h2>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="../Products/pro1example.webp" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Nike Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R450</h4>
                 </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/pro1example.webp" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Nike Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R450</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/pro1example.webp" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Nike Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R450</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/pro1example.webp" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Nike Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R450</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/pro1example.webp" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Nike Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R450</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/pro1example.webp" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Nike Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R450</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/pro1example.webp" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Nike Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R450</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/pro1example.webp" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Nike Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R450</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
         </div>
+    </section>
 
-        <div class="col">
-            <h4>About</h4>
-            <a href="#">About Us</a>
-            <a href="#">Delivery Information</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms & Conditions</a>
-            <a href="#">Contact Us</a>
-        </div>
+    <?php include '../Backend/newsletter.php'; ?>
 
-        <div class="col">
-            <h4>My Account</h4>
-            <a href="#">Sign In</a>
-            <a href="#">View Cart</a>
-            <a href="#">My Wishlist</a>
-            <a href="#">Track My Order</a>
-            <a href="#">Help</a>
-        </div>
-
-        <div class="col install">
-            <h4>Install App</h4>
-            <p>From App Store or Google Play</p>
-            <div class="row">
-                <img src="../Images/app.jpg" alt="">
-                <img src="../Images/play.jpg" alt="">
-            </div>
-            <p>Secure Payment Gateway</p>
-            <img src="../Images/pay.png" alt="">
-        </div>
-
-        <div class="copyright">
-            <p>©2025. TradeHub - Bringing the oppertunity to you.</p>
-        </div>
-
-    </footer>
+    <?php include '../Backend/footer.php'; ?>
 
     <script src="../Logic/scripts.js"></script>
 </body>
