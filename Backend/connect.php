@@ -1,13 +1,20 @@
 <?php
+$host = 'localhost';
+$db   = 'tradehub';
+$user = 'root';
+$pass = '';
+$charset = 'utf8mb4';
 
-$host="localhost";
-$user="root";
-$pass= "";
-$db="login";
-$conn=new mysqli($host,$user,$pass,$db);
-if ($conn->connect_error) {
-    echo "Failed to connect to DB".$conn->connect_error;
+$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
+$options = [
+    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+    PDO::ATTR_EMULATE_PREPARES   => false,
+];
+
+try {
+    $pdo = new PDO($dsn, $user, $pass, $options);
+} catch (\PDOException $e) {
+    die("Database connection failed: " . $e->getMessage());
 }
-
-
 ?>
