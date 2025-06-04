@@ -13,7 +13,7 @@
 <body>
     <div class="container" id="signUp" style="display: none;">
         <h1 class="form-title">Register</h1>
-        <form method="post" action="register.php">
+        <form method="post" action="">
             <div class="input-group">
                 <i class="fas fa-user"></i>
                 <input type="text" name="fName" id="fName" placeholder="First Name" required>
@@ -31,7 +31,7 @@
             </div>
             <div class="input-group">
                 <i class="fas fa-lock"></i>
-                <input type="password" id="password" placeholder="Password" required>
+                <input type="password" name="password" id="password" placeholder="Password" required>
                 <label for="password">Password</label>
             </div>
             <input type="submit" class="btn" value="Sign Up" name="signUp">
@@ -40,6 +40,7 @@
         <p class="or">
             --------OR--------
         </p>
+        
         <div class="icons">
             <i class="fab fa-google"></i>
             <i class="fab fa-facebook"></i>
@@ -52,7 +53,7 @@
 
     <div class="container" id="signIn">
         <h1 class="form-title">Sign In</h1>
-        <form method="post" action="register.php">
+        <form method="post" action="">
             <div class="input-group">
                 <i class="fas fa-envelope"></i>
                 <input type="email" name="email" id="email" placeholder="Email" required>
@@ -60,7 +61,7 @@
             </div>
             <div class="input-group">
                 <i class="fas fa-lock"></i>
-                <input type="password" id="password" placeholder="Password" required>
+                <input type="password" name="password" id="password" placeholder="Password" required>
                 <label for="password">Password</label>
             </div>
             <p class="recover">
@@ -86,3 +87,39 @@
 
 </body>
 </html>
+
+<?php
+session_start();
+require_once __DIR__ . '/connect.php';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $email = $_POST['email'] ?? '';
+    $password = $_POST['password'] ?? '';
+
+    $stmt = $pdo->prepare("SELECT * FROM users WHERE email = ?");
+    $stmt->execute([$email]);
+    $user = $stmt->fetch();
+
+    if ($user && password_verify($password, $user['password_hash'])) { // Replace with password_verify() once hashed
+        $_SESSION['user_id'] = $user['id'];
+        $_SESSION['username'] = $user['username'];
+        $_SESSION['role'] = $user['role'];
+
+        // Redirect by role
+        switch ($user['role']) {
+            case 'admin':
+                header('Location: admin/dashboard.php');
+                break;
+            case 'seller':
+                header('Location: ../Dashboards/dashboard.php');
+                break;
+            case 'buyer':
+                header('Location: ../Dashboards/dashboard.php');
+                break;
+        }
+        exit;
+    } else {
+        echo "<p style='color:red'>Invalid email or password</p>";
+    }
+}
+?>
