@@ -1,0 +1,71 @@
+/* Style/adminDashboard.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    color: #111;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.admin-dashboard h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #111;
+    text-align: center;
+}
+
+.admin-dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.admin-dashboard thead {
+    background-color: #f0f0f0;
+}
+
+.admin-dashboard th,
+.admin-dashboard td {
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.admin-dashboard th {
+    font-weight: 600;
+    color: #333;
+}
+
+.admin-dashboard tr {
+    border-bottom: 1px solid #eee;
+}
+
+.admin-dashboard tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.admin-dashboard button.btn-danger {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.admin-dashboard button.btn-danger:hover {
+    background-color: #c9302c;
+}

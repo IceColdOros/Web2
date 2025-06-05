@@ -50,7 +50,7 @@
                     </div>
                     <h4>R450</h4>
                 </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                <a href=""><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
                 <img src="../Products/pro1example.webp" alt="">
