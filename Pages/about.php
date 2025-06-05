@@ -75,9 +75,9 @@
         </div>
     </section>
 
-    <?php include '../Backend/newsletter.php'; ?>
+    <?php include '../Global/newsletter.php'; ?>
 
-    <?php include '../Backend/footer.php'; ?>
+    <?php include '../Global/footer.php'; ?>
 
     <script src="../Logic/scripts.js"></script>
 </body>
