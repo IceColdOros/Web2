@@ -31,7 +31,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['user_type'] !== 'admin') {
                     <li><a href="../Pages/about.php">About</a></li>
                     <li><a href="../Pages/contact.php">Contact</a></li>
                     <li><a href="../Pages/cart.php"><i class="far fa-shopping-bag"></i></a></li>
-                    <li><a class="active" href="../Pages/dashboard.php"<i class="fas fa-user-circle"></i></li></a></li>
+                    <li><a class="active" href="../Dashboards/dashboard.php"<i class="fas fa-user-circle"></i></li></a></li>
               </ul>
     </div>
   </section>
