@@ -1,5 +1,3 @@
-<?php include("../Backend/login.php"); ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
