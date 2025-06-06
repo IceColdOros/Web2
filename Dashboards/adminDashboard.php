@@ -16,13 +16,13 @@ if (!isset($_SESSION['user_id']) || $_SESSION['user_type'] !== 'admin') {
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
-    <link rel="stylesheet" href="../style/adminDashboard.css">
-    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="stylesheet" href="../Style/adminDashboard.css">
+    <link rel="stylesheet" href="../Style/styles.css">
 </head>
 <body>
 
     <section id="header">
-            <a href="#"><img src="../Images/" class="logo" alt=""></a>
+            <a href="#"><img src="../Images/logo2Smaller.png" class="logo" alt=""></a>
         
             <div>
                 <ul id="navbar">
@@ -55,18 +55,18 @@ if (!isset($_SESSION['user_id']) || $_SESSION['user_type'] !== 'admin') {
             <!-- These are hardcoded. You can make them dynamic later -->
             <tr>
                 <td>1</td>
-                <td>Cool Shirt</td>
-                <td>Stylish cotton shirt</td>
-                <td>R199</td>
-                <td>SellerA</td>
+                <td>Graphic Shirt</td>
+                <td>Lifestyle cotton shirt</td>
+                <td>R300</td>
+                <td>Nathi</td>
                 <td><button class="btn btn-danger btn-sm">Delete</button></td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Sneakers</td>
-                <td>Comfy running shoes</td>
-                <td>R499</td>
-                <td>SellerB</td>
+                <td>Air Max</td>
+                <td>R2600</td>
+                <td>Addisi</td>
                 <td><button class="btn btn-danger btn-sm">Delete</button></td>
             </tr>
         </tbody>
