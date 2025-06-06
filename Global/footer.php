@@ -21,20 +21,20 @@ echo '
 
         <div class="col">
             <h4>About</h4>
-            <a href="#">About Us</a>
+            <a href="../Pages/about.php">About Us</a>
             <a href="#">Delivery Information</a>
             <a href="#">Privacy Policy</a>
             <a href="#">Terms & Conditions</a>
-            <a href="#">Contact Us</a>
+            <a href="../Pages/contact.php">Contact Us</a>
         </div>
 
         <div class="col">
             <h4>My Account</h4>
-            <a href="#">Sign In</a>
-            <a href="#">View Cart</a>
+            <a href="../Pages/loginPage.php">Sign In</a>
+            <a href="../Pages/cart.php">View Cart</a>
             <a href="#">My Wishlist</a>
-            <a href="#">Track My Order</a>
-            <a href="#">Help</a>
+            <a href="../Pages/orderTracking.php">Track My Order</a>
+            <a href="../Pages/contact.php">Help</a>
         </div>
 
         <div class="col install">

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Order Tracking</title>
   <link rel="stylesheet" href="../Style/adminDashboard.css">
-  <link rel="stylsheet" href="../Style/orderTracking.css">
+  <link rel="stylesheet" href="../Style/orderTracking.css">
 </head>
 <body>
   <div class="tracking-container">

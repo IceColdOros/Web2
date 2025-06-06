@@ -42,7 +42,7 @@ if (!isset($_SESSION['user_id'])) {
     <section id="hero">
         <h2>TradeHub</h4>
         <h4>Empowering informal traders across South Africa</h2>
-        <button>Shop Now</button>
+        <button onclick="window.location.href='shop.php'">Shop Now</button>
     </section>
 
     <section id="feature" class="section-p1">
