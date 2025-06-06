@@ -6,6 +6,10 @@
   <title>Order Tracking</title>
   <link rel="stylesheet" href="../Style/adminDashboard.css">
   <link rel="stylesheet" href="../Style/orderTracking.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- For icons -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+  <link rel="stylesheet" href="../Style/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
 

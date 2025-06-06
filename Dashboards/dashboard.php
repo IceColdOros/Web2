@@ -35,7 +35,7 @@
       <div class="card">
         <h2>Orders</h2>
         <ul>
-          <li><a href="../Pages/orderTracking">Orders</a></li>
+          <li><a href="../Pages/orderTracking.php">Orders</a></li>
           <li><a href="#">Invoices</a></li>
           <li><a href="#">Returns</a></li>
           <li><a href="#">Product Reviews</a></li>
@@ -72,7 +72,7 @@
       <div class="card">
         <h2>My Lists</h2>
         <ul>
-          <li><a href="#">Sell</a></li>
+          <li><a href="../Pages/sell.php">Sell</a></li>
           <li><a href="#">My Lists</a></li>
           <li><a href="#">Create a List</a></li>
         </ul>
