@@ -15,7 +15,7 @@ $role = ucfirst($_SESSION['role']); // Capitalize first letter
 <head>
     <meta charset="UTF-8">
     <title>User Profile</title>
-    <link rel="stylesheet" href="../Styles/userProfile.css">
+    <link rel="stylesheet" href="../Style/userProfile.css">
 </head>
 <body>
     <div class="profile-container">
