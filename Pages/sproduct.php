@@ -33,7 +33,7 @@ if (!isset($_SESSION['user_id'])) {
                     <li><a href="../Pages/about.php">About</a></li>
                     <li><a href="../Pages/contact.php">Contact</a></li>
                     <li><a href="../Pages/cart.php"><i class="far fa-shopping-bag"></i></a></li>
-                    <li><a href="../Dashboards/dashboard.php"></a><i class="fas fa-user-circle"></i></li></a></li>
+                    <li><a href="../Dashboards/dashboard.php"><i class="fas fa-user-circle"></i></a></li>
                 </ul>
         </div>
     
@@ -97,7 +97,7 @@ if (!isset($_SESSION['user_id'])) {
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/nikeShoe2" alt="">
+                <img src="../Products/nikeShoe2.webp" alt="">
                 <div class="des">
                     <span>clothes</span>
                     <h5>Nike Air Max 97</h5>

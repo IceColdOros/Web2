@@ -40,8 +40,8 @@ if (!isset($_SESSION['user_id'])) {
     </section>
 
     <section class="page-header"  id="cart-header">
-        <h2>#KnowUs</h4>
-        <p>Get to know more about us.</p>
+        <h2>#CheckOut!</h4>
+        <p>Make dreams reality.</p>
     </section> 
    
     <section id="cart" class="section-p1">

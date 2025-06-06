@@ -246,7 +246,7 @@ body {
     padding-top: 7px;
     font-size: 14px;
     font-weight: 700;
-    color: rgb(51, 160, 105);
+    color: rgb(0, 0, 0);
 }
 
 #product1 .pro .cart {
@@ -313,7 +313,7 @@ body {
 #newsletter p {
     font-size: 14px;
     font-weight: 600;
-    color: rgb(184, 183, 183);
+    color: rgb(70, 70, 70);
 }
 
 #newsletter p span {
@@ -378,7 +378,7 @@ footer p {
 footer a {
     font-size: 13px;
     text-decoration: none;
-    color: #222;
+    color: #000000;
     margin: 0 0 8px 0;
 }
 
@@ -387,13 +387,13 @@ footer .follow {
 }
 
 footer .follow i {
-    color: #465b52;
+    color: #000000;
     padding-right: 4px;
     cursor: pointer;
 }
 
 footer .install .row img {
-    border: 1px solid #088178;
+    border: 1px solid rgb(0, 153, 255);
     border-radius: 6px;
 }
 
@@ -403,7 +403,7 @@ footer .install img {
 
 footer .follow i:hover, 
 footer a:hover {
-    color: #088178;
+    color: rgb(0, 153, 255);
 }
 
 footer .copyright {
@@ -435,7 +435,7 @@ footer .copyright {
 
 #pagination a {
     text-decoration: none;
-    background-color: #088178;
+    background-color: rgb(0, 153, 255);
     padding: 15px 20px;
     border-radius: 4px;
     color: white;
@@ -501,7 +501,7 @@ footer .copyright {
 }
 
 #prodetails .single-pro-details button {
-    background-color: #088178;
+    background-color: rgb(0, 153, 255);
     color: white;
 }
 
@@ -569,7 +569,7 @@ footer .copyright {
 }
 
 #blog .blog-details a:hover {
-    color: #088178;
+    color: rgb(0, 153, 255);
     transition: 0.3s;
 }
 
@@ -585,7 +585,7 @@ footer .copyright {
 
 /*About Page*/
 #about-header {
-    background-image: url("../Images/banner\(1\).png");
+    background-image: url("../Images/banner5.jpeg");
     width: 100%;
     height: 30vh;
     background-size: cover;
@@ -614,7 +614,7 @@ footer .copyright {
 
 /*Contact Page*/
 #contact-header {
-    background-image: url("../Images/banner4.jpg");
+    background-image: url("../Images/banner7.jpeg");
     width: 100%;
     height: 30vh;
     background-size: cover;
@@ -704,7 +704,7 @@ footer .copyright {
 }
 
 #form-details form button {
-    background-color: #088178;
+    background-color: rgb(0, 153, 255);
     color: white;
 }
 
@@ -737,7 +737,7 @@ footer .copyright {
 /*Cart Page*/
 
 #cart-header {
-    background-image: url("../Images/banner3.jpg");
+    background-image: url("../Images/banner6.jpeg");
     width: 100%;
     height: 30vh;
     background-size: cover;
@@ -830,7 +830,7 @@ footer .copyright {
 
 #coupon button,
 #subtotal button {
-    background-color: #088178;
+    background-color: rgb(0, 153, 255);
     color: white;
     padding: 12px 20px;
 }
