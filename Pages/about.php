@@ -60,7 +60,7 @@ if (!isset($_SESSION['user_id'])) {
 
             <br><br>
 
-            <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">For Those Who Dare</marquee>
+            <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">For Those Who Dare.   ヽ༼ ຈل͜ຈ༼ ▀̿̿Ĺ̯̿̿▀̿ ̿༽Ɵ͆ل͜Ɵ͆ ༽ﾉ</marquee>
         </div>
     </section>
 
