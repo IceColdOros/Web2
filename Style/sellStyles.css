@@ -1,0 +1,41 @@
+.sell-container {
+    max-width: 600px;
+    margin: 60px auto;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+.sell-container input, .sell-container textarea, .sell-container select {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    background: #222;
+    border: 1px solid #555;
+    color: #fff;
+    border-radius: 6px;
+}
+.sell-container label {
+    font-weight: 500;
+}
+.sell-container .buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.sell-container .buttons button {
+    width: 48%;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.cancel-btn {
+    background-color: #555;
+}
+.post-btn {
+    background-color: #28a745;
+    color: white;
+}

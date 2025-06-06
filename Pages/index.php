@@ -23,7 +23,7 @@ if (!isset($_SESSION['user_id'])) {
 <body>
 
     <section id="header">
-        <a href="#"><img src="../Images/" class="logo" alt=""></a>
+        <a href="#"><img src="../Images/logo2.png" class="logo" alt=""></a>
     
         <div>
             <ul id="navbar">
