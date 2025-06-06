@@ -14,7 +14,7 @@
 <body>
 
   <section id="header">
-    <a href="#"><img src="../Images/logo2.png" class="logo" alt=""></a>
+    <a href="#"><img src="../Images/logo2Smaller.png" class="logo" alt=""></a>
     <div>
       <ul id="navbar">
                     <li><a href="../Pages/index.php">Home</a></li>

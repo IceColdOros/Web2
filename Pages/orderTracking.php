@@ -7,7 +7,26 @@
   <link rel="stylesheet" href="../Style/adminDashboard.css">
   <link rel="stylesheet" href="../Style/orderTracking.css">
 </head>
+
+
+
 <body>
+
+  <section id="header">
+    <a href="#"><img src="../Images/logo2Smaller.png" class="logo" alt=""></a>
+    <div>
+      <ul id="navbar">
+                    <li><a href="../Pages/index.php">Home</a></li>
+                    <li><a href="../Pages/shop.php">Shop</a></li>
+                    <li><a href="../Pages/blog.php">Blog</a></li>
+                    <li><a href="../Pages/about.php">About</a></li>
+                    <li><a href="../Pages/contact.php">Contact</a></li>
+                    <li><a href="../Pages/cart.php"><i class="far fa-shopping-bag"></i></a></li>
+                    <li><a class="active" href="../Dashboards/dashboard.php"><i class="fas fa-user-circle"></i></a></li>
+              </ul>
+    </div>
+  </section>
+
   <div class="tracking-container">
     <div class="tracking-header">Order Tracking</div>
 
@@ -36,5 +55,8 @@
       Your order has been delivered.
     </div>
   </div>
+
+  <?php include '../Global/footer.php'; ?>
+
 </body>
 </html>

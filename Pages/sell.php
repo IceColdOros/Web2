@@ -5,11 +5,14 @@
     <title>Sell Product</title>
     <link rel="stylesheet" href="../Style/styles.css">
     <link rel="stylesheet" href="../Style/sellStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
 </head>
 <body>
 
     <section id="header">
-        <a href="#"><img src="../Images/logo2.png" class="logo" alt=""></a>
+        <a href="#"><img src="../Images/logo2Smaller.png" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
                     <li><a href="../Pages/index.php">Home</a></li>
