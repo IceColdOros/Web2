@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register & Login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="../Style/loginStyles.css"
+    <link rel="stylesheet" href="../Style/loginStyles.css">
 </head>
 
 <body>
     <div class="container" id="signUp" style="display: none;">
         <h1 class="form-title">Register</h1>
-        <form method="post" action="">
+        <form method="post" action="loginPage.php">
             <div class="input-group">
                 <i class="fas fa-user"></i>
                 <input type="text" name="fName" id="fName" placeholder="First Name" required>
@@ -51,7 +51,7 @@
 
     <div class="container" id="signIn">
         <h1 class="form-title">Sign In</h1>
-        <form method="post" action="">
+        <form method="post" action="loginPage.php">
             <div class="input-group">
                 <i class="fas fa-envelope"></i>
                 <input type="email" name="email" id="email" placeholder="Email" required>
@@ -85,28 +85,32 @@
 
 </body>
 </html>
-
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 session_start();
-require_once __DIR__ . '/connect.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Hardcoded credentials for testing
     $email = $_POST['email'] ?? '';
     $password = $_POST['password'] ?? '';
 
-    $stmt = $pdo->prepare("SELECT * FROM users WHERE email = ?");
-    $stmt->execute([$email]);
-    $user = $stmt->fetch();
+    // Hardcoded users and roles
+    $users = [
+        'admin@example.com' => ['password' => 'admin123', 'role' => 'admin'],
+        'seller@example.com' => ['password' => 'seller123', 'role' => 'seller'],
+        'buyer@example.com' => ['password' => 'buyer123', 'role' => 'buyer']
+    ];
 
-    if ($user && password_verify($password, $user['password_hash'])) { // Replace with password_verify() once hashed
-        $_SESSION['user_id'] = $user['id'];
-        $_SESSION['username'] = $user['username'];
-        $_SESSION['role'] = $user['role'];
+    // Check if the entered email exists in our hardcoded users array
+    if (isset($users[$email]) && $users[$email]['password'] === $password) {
+        $_SESSION['user_id'] = 1; // Dummy ID
+        $_SESSION['username'] = $email;
+        $_SESSION['role'] = $users[$email]['role'];
 
-        // Redirect by role
-        switch ($user['role']) {
+        switch ($users[$email]['role']) {
             case 'admin':
-                header('Location: admin/dashboard.php');
+                header('Location: ../Dashboards/adminDashboard.php');
                 break;
             case 'seller':
                 header('Location: ../Dashboards/dashboard.php');
@@ -114,6 +118,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             case 'buyer':
                 header('Location: ../Dashboards/dashboard.php');
                 break;
+            default:
+                echo "<p>Unknown role</p>";
         }
         exit;
     } else {

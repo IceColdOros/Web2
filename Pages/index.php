@@ -46,27 +46,27 @@ if (!isset($_SESSION['user_id'])) {
     </section>
 
     <section id="feature" class="section-p1">
-        <div class="fe-box">
+        <div class="fe-box" onclick="window.location.href='shop.php'">
             <img src="../Images/cat1tech.png" alt="">
             <h6>Technology</h6>
         </div>
-        <div class="fe-box">
+        <div class="fe-box" onclick="window.location.href='shop.php'">
             <img src="../Images/cat2clothes.png" alt="">
             <h6>Clothes</h6>
         </div>
-        <div class="fe-box">
+        <div class="fe-box" onclick="window.location.href='shop.php'">
             <img src="../Images/cat3book.png" alt="">
             <h6>Books</h6>
         </div>
-        <div class="fe-box">
+        <div class="fe-box" onclick="window.location.href='shop.php'">
             <img src="../Images/cat4home.png" alt="">
             <h6>Home</h6>
         </div>
-        <div class="fe-box">
+        <div class="fe-box" onclick="window.location.href='shop.php'">
             <img src="../Images/cat5sport.png" alt="">
             <h6>Sport</h6>
         </div>
-        <div class="fe-box">
+        <div class="fe-box" onclick="window.location.href='shop.php'">
             <img src="../Images/cat6car.png" alt="">
             <h6>Car</h6>
         </div>
@@ -79,8 +79,24 @@ if (!isset($_SESSION['user_id'])) {
             <div class="pro">
                 <img src="../Products/pro1example.webp" alt="">
                 <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
+                    <span>Clothes</span>
+                    <h5>Nike Shirt | Fitness</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R350</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/nikeShirt2.webp" alt="">
+                <div class="des">
+                    <span>Clothes</span>
+                    <h5>Nike Shirt | Lifestyle</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -93,10 +109,58 @@ if (!isset($_SESSION['user_id'])) {
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
+                <img src="../Products/pro2example.webp" alt="">
                 <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
+                    <span>Clothes</span>
+                    <h5>Graphic Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R300</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/home1.jpg" alt="">
+                <div class="des">
+                    <span>Home</span>
+                    <h5>Dark Grey Curtain</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R750</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/sport2.webp" alt="">
+                <div class="des">
+                    <span>Sport</span>
+                    <h5>Osaka Hockey Stick</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R5650</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/sport4.jpeg" alt="">
+                <div class="des">
+                    <span>Sport</span>
+                    <h5>Rugby Ball</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -109,10 +173,10 @@ if (!isset($_SESSION['user_id'])) {
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
+                <img src="../Products/electronic2.webp" alt="">
                 <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
+                    <span>Electronics</span>
+                    <h5>JBL Headphones</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -120,15 +184,15 @@ if (!isset($_SESSION['user_id'])) {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R450</h4>
+                    <h4>R1500</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
+                <img src="../Products/electronic5.jpeg" alt="">
                 <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
+                    <span>Electronics</span>
+                    <h5>JBL TWS Earphones</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -136,71 +200,7 @@ if (!isset($_SESSION['user_id'])) {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R450</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
-                <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R450</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
-                <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R450</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
-                <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R450</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
-                <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R450</h4>
+                    <h4>R1250</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
@@ -217,10 +217,26 @@ if (!isset($_SESSION['user_id'])) {
         <h2>New Arrivals</h2>
         <div class="pro-container">
             <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
+                <img src="../Products/book1.jpg" alt="">
                 <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
+                    <span>Book</span>
+                    <h5>Book | Mastery</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R500</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/book2.png" alt="">
+                <div class="des">
+                    <span>Book</span>
+                    <h5>Book | War</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -233,10 +249,10 @@ if (!isset($_SESSION['user_id'])) {
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
+                <img src="../Products/home2.webp" alt="">
                 <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
+                    <span>Home</span>
+                    <h5>Light Grey Curtain</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -244,15 +260,15 @@ if (!isset($_SESSION['user_id'])) {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R450</h4>
+                    <h4>R750</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
+                <img src="../Products/home3.jpeg" alt="">
                 <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
+                    <span>Home</span>
+                    <h5>Charcoal Curtain</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -260,15 +276,15 @@ if (!isset($_SESSION['user_id'])) {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R450</h4>
+                    <h4>R750</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
+                <img src="../Products/sport1.webp" alt="">
                 <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
+                    <span>Sport</span>
+                    <h5>Osaka Hockey Stick</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -276,15 +292,15 @@ if (!isset($_SESSION['user_id'])) {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R450</h4>
+                    <h4>R5550</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
+                <img src="../Products/car1.jpg" alt="">
                 <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
+                    <span>Car</span>
+                    <h5>Car Phone Mount</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -292,15 +308,15 @@ if (!isset($_SESSION['user_id'])) {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R450</h4>
+                    <h4>R250</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
+                <img src="../Products/electronic3.webp" alt="">
                 <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
+                    <span>Electronics</span>
+                    <h5>Keychrone Keyboard</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -308,15 +324,15 @@ if (!isset($_SESSION['user_id'])) {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R450</h4>
+                    <h4>R2350</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
+                <img src="../Products/electronic4.webp" alt="">
                 <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
+                    <span>Electronics</span>
+                    <h5>NVIDIA RTX 3090</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -324,23 +340,7 @@ if (!isset($_SESSION['user_id'])) {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R450</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
-                <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R450</h4>
+                    <h4>R23999</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
