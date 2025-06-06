@@ -1,3 +1,8 @@
+<?php
+session_start();
+$userRole = $_SESSION['role'] ?? '';
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +43,9 @@
           <li><a href="../Pages/orderTracking.php">Orders</a></li>
           <li><a href="#">Invoices</a></li>
           <li><a href="#">Returns</a></li>
-          <li><a href="#">Product Reviews</a></li>
+          <?php if ($userRole === 'admin') : ?>
+            <li><a href="../Dashboards/adminDashboard.php">Admin</a></li>
+          <?php endif; ?>
         </ul>
       </div>
 
@@ -62,7 +69,7 @@
       <div class="card">
         <h2>Profile</h2>
         <ul>
-          <li><a href="#">Personal Details</a></li>
+          <li><a href="../Pages/userProfile.php">Personal Details</a></li>
           <li><a href="#">Security Settings</a></li>
           <li><a href="#">Address Book</a></li>
           <li><a href="#">Newsletter Subscriptions</a></li>

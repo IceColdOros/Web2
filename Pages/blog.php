@@ -47,7 +47,7 @@ if (!isset($_SESSION['user_id'])) {
     <section id="blog">
         <div class="blog-box">
             <div class="blog-img">
-                <img src="../Images/b1 (1).jpg" alt="">
+                <img src="../Images/blog1.avif" alt="">
             </div>
             <div class="blog-details">
                 <h4>Why We Built This Platform — And How It Helps YOU Win</h4>
@@ -60,7 +60,7 @@ if (!isset($_SESSION['user_id'])) {
         </div>
         <div class="blog-box">
             <div class="blog-img">
-                <img src="../Images/b1 (1).jpg" alt="">
+                <img src="../Images/blog2.avif" alt="">
             </div>
             <div class="blog-details">
                 <h4>Buying Secondhand? Here is How to Snag the Best Deals</h4>
@@ -74,7 +74,7 @@ if (!isset($_SESSION['user_id'])) {
         </div>
         <div class="blog-box">
             <div class="blog-img">
-                <img src="../Images/b1 (1).jpg" alt="">
+                <img src="../Images/blog3.avif" alt="">
             </div>
             <div class="blog-details">
                 <h4>Hey Sellers! These 5 Little Tricks Can DOUBLE Your Sales</h4>

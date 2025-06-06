@@ -22,11 +22,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['signIn'])) {
 
         switch ($_SESSION['role']) {
             case 'admin':
-                header('Location: ../Dashboards/adminDashboard.php');
+                header('Location: ../Pages/index.php');
                 exit;
             case 'seller':
             case 'buyer':
-                header('Location: ../Dashboards/dashboard.php');
+                header('Location: ../Pages/index.php');
                 exit;
         }
     } else {
@@ -43,6 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['signIn'])) {
     <title>Register & Login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../Style/loginStyles.css">
+    <link rel="stylesheet" href="../Style/styles.css">
 </head>
 <body>
 
