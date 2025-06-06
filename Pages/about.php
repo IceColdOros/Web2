@@ -48,13 +48,19 @@ if (!isset($_SESSION['user_id'])) {
         <img src="../Images/a6.jpg" alt="">
         <div>
             <h2>Who Are We?</h2>
-            <p>who are we text</p>
+            <p>At TradeHub, we believe buying and selling online should be simple, safe, and stress-free—no matter who you are.
+                Whether you are a creative selling handmade goods, a small business testing the online market, or a larger organization looking for a direct connection with buyers, 
+                we have built a place where transactions happen smoothly, securely, and without the usual hassle. Our C2C platform cuts out the middleman, 
+                letting buyers and sellers communicate, negotiate, and transact with confidence. With secure payments, straightforward listings, 
+                and real human support, we are here to make sure everyone gets a fair deal—minus the complications.
+                No confusing fees. No sketchy surprises. Just a better way to buy and sell, the way it should be.
+                Welcome to TradeHub—where great deals meet real people.</p>
 
-            <abbr title="">IDK some other text? Create stunning images</abbr>
+            <abbr title="">TradeHub - Empowering informal traders across South Africa</abbr>
 
             <br><br>
 
-            <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">Create stunning images</marquee>
+            <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">For Those Who Dare</marquee>
         </div>
     </section>
 

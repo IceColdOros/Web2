@@ -45,23 +45,20 @@ if (!isset($_SESSION['user_id'])) {
 
             <div class="small-img-group">
                 <div class="small-img-col">
-                    <img src="../Products/pro1example.webp" width="100%" class="small-img" alt="">
+                    <img src="../Products/nikeShirt4.webp" width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-col">
-                    <img src="../Products/pro2example.webp" width="100%" class="small-img" alt="">
+                    <img src="../Products/nikeShirt3.webp" width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-col">
-                    <img src="../Products/pro3example.webp" width="100%" class="small-img" alt="">
-                </div>
-                <div class="small-img-col">
-                    <img src="../Products/pro4example.webp" width="100%" class="small-img" alt="">
+                    <img src="../Products/nikeShirt2.webp" width="100%" class="small-img" alt="">
                 </div>
             </div>
         </div>
         <div class="single-pro-details">
-            <h6>Home / T-Shirt</h6>
-            <h4>Men's Fashion T shirt</h4>
-            <h2>R250</h2>
+            <h6>Shop / T-Shirt</h6>
+            <h4>Men's Lifestyle Nike T</h4>
+            <h2>R450</h2>
             <select>
                 <option>Secect Size</option>
                 <option>XXL</option>
@@ -73,7 +70,9 @@ if (!isset($_SESSION['user_id'])) {
             <input type="number" value="1">
             <button class="normal">Add To Cart</button>
             <h4>Product Details</h4>
-            <span>"BLACK SHIRT"</span>
+            <span>Enjoy the simple yet clean design of our new Lifestyle line of shirts. 
+                Made out of wool so the wear will always be plesurable.
+            </span>
         </div>
     </section>
 
@@ -82,10 +81,10 @@ if (!isset($_SESSION['user_id'])) {
         <p>New Summer Collection</p>
         <div class="pro-container">
             <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
+                <img src="../Products/pro2example.webp" alt="">
                 <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
+                    <span>Clothes</span>
+                    <h5>Graphic Shirt</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -93,15 +92,15 @@ if (!isset($_SESSION['user_id'])) {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R450</h4>
+                    <h4>R300</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
+                <img src="../Products/nikeShoe2" alt="">
                 <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
+                    <span>clothes</span>
+                    <h5>Nike Air Max 97</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -109,15 +108,15 @@ if (!isset($_SESSION['user_id'])) {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R450</h4>
+                    <h4>R2600</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
+                <img src="../Products/electronic5.jpeg" alt="">
                 <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
+                    <span>Electronics</span>
+                    <h5>JBL TWS Earphones</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -125,15 +124,15 @@ if (!isset($_SESSION['user_id'])) {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R450</h4>
+                    <h4>R1250</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/pro1example.webp" alt="">
+                <img src="../Products/pro3example.webp" alt="">
                 <div class="des">
-                    <span>Nike</span>
-                    <h5>Nike Shirt</h5>
+                    <span>lothes</span>
+                    <h5>Graphic Shirt</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -141,16 +140,16 @@ if (!isset($_SESSION['user_id'])) {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R450</h4>
+                    <h4>R300</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
         </div>
     </section>
 
-    <?php include '../Backend/newsletter.php'; ?>
+    <?php include '../Global/newsletter.php'; ?>
 
-    <?php include '../Backend/footer.php'; ?>
+    <?php include '../Global/footer.php'; ?>
 
     
     <script>
@@ -166,9 +165,7 @@ if (!isset($_SESSION['user_id'])) {
         smallimg[2].onclick = function(){
             MainImg.src = smallimg[2].src;
         }
-        smallimg[3].onclick = function(){
-            MainImg.src = smallimg[3].src;
-        }
+        
 
     </script>
 

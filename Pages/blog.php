@@ -50,8 +50,10 @@ if (!isset($_SESSION['user_id'])) {
                 <img src="../Images/b1 (1).jpg" alt="">
             </div>
             <div class="blog-details">
-                <h4>Example Text</h4>
-                <p>More example text</p>
+                <h4>Why We Built This Platform — And How It Helps YOU Win</h4>
+                <p>This is not just another buy/sell app. We are tired of fees, scams, and chaos too. 
+                    So we made a place where real people get the best deals — with secure payments, 
+                    no bots, and actual humans on standby. Because you deserve better.</p>
                 <a href="#">CONTINUE READING</a>
             </div>
             <h1>13/01</h1>
@@ -61,33 +63,29 @@ if (!isset($_SESSION['user_id'])) {
                 <img src="../Images/b1 (1).jpg" alt="">
             </div>
             <div class="blog-details">
-                <h4>Example Text</h4>
-                <p>More example text</p>
+                <h4>Buying Secondhand? Here is How to Snag the Best Deals</h4>
+                <p>Love a good bargain but hate the back-and-forth? We get it. 
+                    Whether you are hunting for vintage jeans or a barely-used 3090, 
+                    here is how to spot hidden gems, negotiate like a pro, 
+                    and avoid sketchy sellers — all while keeping it chill. Your wallet will thank you.</p>
                 <a href="#">CONTINUE READING</a>
             </div>
-            <h1>13/01</h1>
+            <h1>08/02</h1>
         </div>
         <div class="blog-box">
             <div class="blog-img">
                 <img src="../Images/b1 (1).jpg" alt="">
             </div>
             <div class="blog-details">
-                <h4>Example Text</h4>
-                <p>More example text</p>
+                <h4>Hey Sellers! These 5 Little Tricks Can DOUBLE Your Sales</h4>
+                <p>Want to sell faster and for more money? You are not alone! 
+                    After watching top sellers on TradeHub, 
+                    we noticed they all do these 5 simple
+                    things — like using bright photos and keyword-friendly titles.  
+                    Ready to boost your listings?</p>
                 <a href="#">CONTINUE READING</a>
             </div>
-            <h1>13/01</h1>
-        </div>
-        <div class="blog-box">
-            <div class="blog-img">
-                <img src="../Images/b1 (1).jpg" alt="">
-            </div>
-            <div class="blog-details">
-                <h4>Example Text</h4>
-                <p>More example text</p>
-                <a href="#">CONTINUE READING</a>
-            </div>
-            <h1>13/01</h1>
+            <h1>25/03</h1>
         </div>
     </section>
 

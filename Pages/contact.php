@@ -40,8 +40,8 @@ if (!isset($_SESSION['user_id'])) {
     </section>
 
     <section class="page-header"  id="about-header">
-        <h2>#KnowUs</h4>
-        <p>Get to know more about us.</p>
+        <h2>#GetInTouch</h4>
+        <p>Cantact us with any problem you may have.</p>
     </section> 
    
     <section id="contact-details" class="section-p1">
@@ -56,7 +56,7 @@ if (!isset($_SESSION['user_id'])) {
                 </li>
                 <li>
                     <i class="far fa-envelope"></i>
-                    <p>chad.kriell@gmail.com</p>
+                    <p>eduvos@gmail.com</p>
                 </li>
                 <li>
                     <i class="fas fa-phone-alt"></i>
@@ -91,19 +91,19 @@ if (!isset($_SESSION['user_id'])) {
 
         <div class="people">
             <div>
-                <img src="../Images/yes_resized.jpg" alt="">
-                <p><span>Chad Kriel:</span> Seniour Marketing Manager <br> Phone: 012 345 6789
-                <br> Email: chad.kriell@gmail.com</p>
+                <img src="../Images/employee1.jpg" alt="">
+                <p><span>Luyanda Ndlovu:</span> Seniour Marketing Manager <br> Phone: 012 345 6789
+                <br> Email: seniour.luyanda@gmail.com</p>
+            </div>
+            <div>
+                <img src="../Images/employee2.jpg" alt="">
+                <p><span>Johan Moyane:</span> Deputy Marketing Manager <br> Phone: 102 435 7689
+                <br> Email: deputy.johan@gmail.com</p>
             </div>
             <div>
                 <img src="../Images/yes_resized.jpg" alt="">
-                <p><span>Chad Kriel:</span> Seniour Marketing Manager <br> Phone: 012 345 6789
-                <br> Email: chad.kriell@gmail.com</p>
-            </div>
-            <div>
-                <img src="../Images/yes_resized.jpg" alt="">
-                <p><span>Chad Kriel:</span> Seniour Marketing Manager <br> Phone: 012 345 6789
-                <br> Email: chad.kriell@gmail.com</p>
+                <p><span>Chad Kriel:</span> Juniour Marketing Manager <br> Phone: 210 543 9876
+                <br> Email: junior.chad@gmail.com</p>
             </div>
         </div>
 
