@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Sell Product</title>
-    <link rel="stylesheet" href="../Styles/styles.css">
+    <link rel="stylesheet" href="../Style/styles.css">
     <link rel="stylesheet" href="../Style/sellStyles.css">
 </head>
 <body>
 
-<section id="header">
-        <a href="#"><img src="../Images/" class="logo" alt=""></a>
-    
+    <section id="header">
+        <a href="#"><img src="../Images/logo2.png" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
                     <li><a href="../Pages/index.php">Home</a></li>
@@ -22,8 +21,7 @@
                     <li><a class="active" href="../Dashboards/dashboard.php"><i class="fas fa-user-circle"></i></a></li>
             </ul>
         </div>
-    
-</section>
+    </section>
 
 <div class="sell-container">
     <h2>List a New Product</h2>
@@ -54,7 +52,7 @@
     </form>
 </div>
 
-<?php include('../Global/footer.php'); ?>
+<?php include '../Global/footer.php'; ?>
 
 </body>
 </html>

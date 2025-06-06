@@ -14,7 +14,7 @@
 <body>
 
   <section id="header">
-    <a href="#"><img src="../Images/" class="logo" alt=""></a>
+    <a href="#"><img src="../Images/logo2.png" class="logo" alt=""></a>
     <div>
       <ul id="navbar">
                     <li><a href="../Pages/index.php">Home</a></li>
@@ -81,7 +81,7 @@
       <div class="card">
         <h2>Support</h2>
         <ul>
-          <li><a href="contact.php">Contact Us</a></li>
+          <li><a href="../Pages/contact.php">Contact Us</a></li>
         </ul>
       </div>
     </div>
