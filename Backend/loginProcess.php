@@ -1,48 +1,29 @@
 <?php
 session_start();
-include 'database.php'; // your DB connection
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $email = $_POST['email'];
-    $password = $_POST['password'];
+$email = $_POST['email'];
+$password = $_POST['password'];
 
-    // Check user exists
-    $query = "SELECT * FROM users WHERE email = ?";
-    $stmt = $conn->prepare($query);
-    $stmt->bind_param("s", $email);
-    $stmt->execute();
-    $result = $stmt->get_result();
-
-    if ($result && $result->num_rows === 1) {
-        $user = $result->fetch_assoc();
-
-        // If passwords are hashed, use password_verify
-        // For plain text (just for testing): if ($password == $user['password'])
-        if (password_verify($password, $user['password'])) {
-            $_SESSION['user_id'] = $user['id'];
-            $_SESSION['user_type'] = $user['user_type'];
-            $_SESSION['user_name'] = $user['name'];
-
-            // Redirect based on role
-            switch ($user['user_type']) {
-                case 'admin':
-                    header("Location: ../Dashboards/adminDashboard.php");
-                    break;
-                case 'seller':
-                    header("Location: ../Dashboards/sellerDashboard.php");
-                    break;
-                case 'buyer':
-                    header("Location: ../Dashboards/buyerDashboard.php");
-                    break;
-                default:
-                    echo "Unknown role!";
-            }
-            exit;
-        } else {
-            echo "❌ Incorrect password.";
-        }
-    } else {
-        echo "❌ No user found.";
-    }
+if ($email === 'admin@example.com' && $password === 'admin123') {
+    $_SESSION['user_type'] = 'admin';
+    $_SESSION['user_name'] = 'admin';
+    header('Location: ../Dashboards/adminDashboard.php');
+    exit();
+} elseif ($email === 'simone.example@gmail.com' && $password === 'buyer123') {
+    $_SESSION['user_type'] = 'buyer';
+    $_SESSION['user_name'] = 'Simone';
+    header('Location: ../Dashboards/dashboard.php');
+    exit();
+} elseif ($email === 'ji.example@gmail.com' && $password === 'seller123') {
+    $_SESSION['user_type'] = 'seller';
+    $_SESSION['user_name'] = 'Ji';
+    header('Location: ../Dashboards/dashboard.php');
+    exit();
+} else {
+    echo "<script>
+            alert('Login failed. Incorrect email or password.');
+            window.location.href='../Backend/loginPage.php';
+          </script>";
+    exit();
 }
 ?>

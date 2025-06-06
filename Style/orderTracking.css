@@ -9,36 +9,36 @@
       font-family: Arial, sans-serif;
     }
 
-    .tracking-header {
-      text-align: center;
-      font-size: 28px;
-      font-weight: bold;
-      margin-bottom: 30px;
-    }
+.tracking-header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
 
-    .tracking-step {
-      padding: 20px;
-      border-left: 4px solid #4fc3f7;
-      margin-bottom: 20px;
-      position: relative;
-    }
+.tracking-step {
+    padding: 20px;
+    border-left: 4px solid #4fc3f7;
+    margin-bottom: 20px;
+    position: relative;
+}
 
-    .tracking-step::before {
-      content: '';
-      width: 16px;
-      height: 16px;
-      background-color: #4fc3f7;
-      border-radius: 50%;
-      position: absolute;
-      left: -10px;
-      top: 24px;
-      transform: translateY(-50%);
-    }
+.tracking-step::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-color: #4fc3f7;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: 24px;
+    transform: translateY(-50%);
+}
 
-    .tracking-step.completed {
-      border-left-color: #00e676;
-    }
+.tracking-step.completed {
+    border-left-color: #00e676;
+}
 
-    .tracking-step.completed::before {
-      background-color: #00e676;
-    }
+.tracking-step.completed::before {
+    background-color: #00e676;
+}
