@@ -27,7 +27,7 @@ if (!isset($_SESSION['user_id'])) {
     
         <div>
             <ul id="navbar">
-                    <li><a href="../Dashboards/index.php">Home</a></li>
+                    <li><a href="../Pages/index.php">Home</a></li>
                     <li><a href="../Pages/shop.php">Shop</a></li>
                     <li><a href="../Pages/blog.php">Blog</a></li>
                     <li><a href="../Pages/about.php">About</a></li>
