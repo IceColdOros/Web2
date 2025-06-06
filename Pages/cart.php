@@ -17,7 +17,7 @@ if (!isset($_SESSION['user_id'])) {
     <title>TradeHub</title>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
-    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="stylesheet" href="../Style/styles.css">
 </head>
 
 <body>
@@ -33,13 +33,13 @@ if (!isset($_SESSION['user_id'])) {
                     <li><a href="../Pages/about.php">About</a></li>
                     <li><a href="../Pages/contact.php">Contact</a></li>
                     <li><a class="active" href="../Pages/cart.php"><i class="far fa-shopping-bag"></i></a></li>
-                    <li><a href="../Dashboards/dashboard.php"></a><i class="fas fa-user-circle"></i></li></a></li>
+                    <li><a href="../Dashboards/dashboard.php"><i class="fas fa-user-circle"></i></a></li>
             </ul>
         </div>
     
     </section>
 
-    <section class="page-header"  id="about-header">
+    <section class="page-header"  id="cart-header">
         <h2>#KnowUs</h4>
         <p>Get to know more about us.</p>
     </section> 
@@ -59,27 +59,27 @@ if (!isset($_SESSION['user_id'])) {
             <tbody>
                 <tr>
                     <td><a href="#"><i class="far fa-times-circle"></i></a></td>
-                    <td><img src="../Products/pro1example.webp" alt=""></td>
-                    <td>Black Nike T</td>
-                    <td>R450</td>
+                    <td><img src="../Products/pro2example.webp" alt=""></td>
+                    <td>Graphic Shirt</td>
+                    <td>R300</td>
                     <td><input type="number" value="1"></td>
-                    <td>R450</td>
+                    <td>R300</td>
                 </tr>
                 <tr>
                     <td><a href="#"><i class="far fa-times-circle"></i></a></td>
-                    <td><img src="../Products/pro1example.webp" alt=""></td>
-                    <td>Black Nike T</td>
-                    <td>R450</td>
+                    <td><img src="../Products/home3.jpeg" alt=""></td>
+                    <td>Charcoal Curtain</td>
+                    <td>R750</td>
                     <td><input type="number" value="1"></td>
-                    <td>R450</td>
+                    <td>R750</td>
                 </tr>
                 <tr>
                     <td><a href="#"><i class="far fa-times-circle"></i></a></td>
-                    <td><img src="../Products/pro1example.webp" alt=""></td>
-                    <td>Black Nike T</td>
-                    <td>R450</td>
+                    <td><img src="../Products/electronic3.webp" alt=""></td>
+                    <td>Keychrone Keyboard</td>
+                    <td>R2350</td>
                     <td><input type="number" value="1"></td>
-                    <td>R450</td>
+                    <td>R2350</td>
                 </tr>
             </tbody>
         </table>
@@ -99,7 +99,7 @@ if (!isset($_SESSION['user_id'])) {
         <table>
             <tr>
                 <td>Cart Subtotal</td>
-                <td>R1350</td>
+                <td>R3400</td>
             </tr>
             <tr>
                 <td>Shipping</td>
@@ -107,7 +107,7 @@ if (!isset($_SESSION['user_id'])) {
             </tr>
             <tr>
                 <td><strong>Total</strong></td>
-                <td><strong>R1445</strong></td>
+                <td><strong>R3495</strong></td>
             </tr>
         </table>
         <button class="normal">Proceed to cheackout</button>

@@ -17,7 +17,7 @@ if (!isset($_SESSION['user_id'])) {
     <title>TradeHub</title>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
-    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="stylesheet" href="../Style/styles.css">
 </head>
 
 <body>
@@ -33,13 +33,13 @@ if (!isset($_SESSION['user_id'])) {
                     <li><a href="../Pages/about.php">About</a></li>
                     <li><a class="active" href="../Pages/contact.php">Contact</a></li>
                     <li><a href="../Pages/cart.php"><i class="far fa-shopping-bag"></i></a></li>
-                    <li><a href="../Dashboards/dashboard.php"></a><i class="fas fa-user-circle"></i></li></a></li>
+                    <li><a href="../Dashboards/dashboard.php"><i class="fas fa-user-circle"></i></a></li>
             </ul>
         </div>
     
     </section>
 
-    <section class="page-header"  id="about-header">
+    <section class="page-header"  id="contact-header">
         <h2>#GetInTouch</h4>
         <p>Cantact us with any problem you may have.</p>
     </section> 

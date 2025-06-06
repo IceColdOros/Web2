@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #242424;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 40px;
-    color: #ffffff;
+    color: #eb0000;
 }
 
 .grid {
@@ -29,7 +29,7 @@ h1 {
 }
 
 .card {
-    background-color: #1e1e1e;
+    background-color: rgba(184, 184, 184, 0.815);
     border-radius: 12px;
     padding: 25px 20px;
     box-shadow: 0 4px 12px rgba(36, 36, 36, 0.1);
@@ -37,12 +37,12 @@ h1 {
 }
 
 .card:hover {
-    box-shadow: 0 6px 16px rgba(116, 0, 248, 0.2);
+    box-shadow: 0 6px 16px rgba(129, 129, 129, 0.2);
     transform: translateY(-4px);
 }
 
 .card h2 {
-    color: #ffffff;
+    color: #000000;
     font-size: 18px;
     margin-bottom: 10px;
 }
@@ -58,12 +58,12 @@ h1 {
 
 .card ul li a {
     text-decoration: none;
-    color: #ff0707;
+    color: #252525;
     font-size: 14px;
     transition: 0.2s ease;
 }
 
 .card ul li a:hover {
-    color: #00a2ff;
+    color: rgb(0, 153, 255);
     text-decoration: underline;
 }
