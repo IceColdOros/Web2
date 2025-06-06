@@ -9,21 +9,20 @@ if ($email === 'admin@example.com' && $password === 'admin123') {
     $_SESSION['user_name'] = 'admin';
     header('Location: ../Dashboards/adminDashboard.php');
     exit();
-} elseif ($email === 'simone.example@gmail.com' && $password === 'buyer123') {
+} elseif ($email === 'buyer@example.com' && $password === 'buyer123') {
     $_SESSION['user_type'] = 'buyer';
-    $_SESSION['user_name'] = 'Simone';
+    $_SESSION['user_name'] = 'Buyer';
     header('Location: ../Dashboards/dashboard.php');
     exit();
-} elseif ($email === 'ji.example@gmail.com' && $password === 'seller123') {
+} elseif ($email === 'seller@example.com' && $password === 'seller123') {
     $_SESSION['user_type'] = 'seller';
-    $_SESSION['user_name'] = 'Ji';
+    $_SESSION['user_name'] = 'Seller';
     header('Location: ../Dashboards/dashboard.php');
     exit();
 } else {
     echo "<script>
-            alert('Login failed. Incorrect email or password.');
-            window.location.href='../Backend/loginPage.php';
-          </script>";
+        alert('Login failed. Incorrect email or password.');
+        window.location.href='../Backend/loginPage.php';
+    </script>";
     exit();
 }
-?>

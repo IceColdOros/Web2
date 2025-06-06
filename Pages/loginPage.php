@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['signIn'])) {
 
     <div class="container" id="signUp" style="display: none;">
         <h1 class="form-title">Register</h1>
-        <form method="post" action="">
+        <form method="post" action="../Backend/loginProcess.php">
             <div class="input-group">
                 <i class="fas fa-user"></i>
                 <input type="text" name="fName" placeholder="First Name" required>
@@ -90,7 +90,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['signIn'])) {
             <p style="color: red;"><?= $loginError ?></p>
         <?php endif; ?>
 
-        <form method="post" action="">
+        <form method="post" action="../Backend/loginProcess.php">
             <div class="input-group">
                 <i class="fas fa-envelope"></i>
                 <input type="email" name="email" placeholder="Email" required>
