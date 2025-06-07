@@ -4,7 +4,7 @@ FROM php:8.2-apache
 RUN a2enmod rewrite
 
 # Copy all your app files into the container
-COPY . /var/www/html/
+COPY ./Pages /var/www/html/
 
 # Set permissions (optional but useful for some platforms)
 RUN chown -R www-data:www-data /var/www/html
@@ -17,3 +17,6 @@ EXPOSE 80
 
 # Start Apache in the foreground
 CMD ["apache2-foreground"]
+
+RUN chown -R www-data:www-data /var/www/html \
+    && chmod -R 755 /var/www/html
