@@ -6,8 +6,12 @@ WORKDIR /var/www/html
 
 COPY . .
 
+RUN echo "DirectoryIndex loginPage.php" > /var/www/html/.htaccess
+
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html
+
+RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
 
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
