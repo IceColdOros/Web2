@@ -5,32 +5,16 @@ session_start();
 
 $loginError = '';
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['signIn'])) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = $_POST['email'] ?? '';
     $password = $_POST['password'] ?? '';
 
-    $users = [
-        'admin@example.com' => ['password' => 'admin123', 'role' => 'admin'],
-        'seller@example.com' => ['password' => 'seller123', 'role' => 'seller'],
-        'buyer@example.com' => ['password' => 'buyer123', 'role' => 'buyer']
-    ];
-
-    if (isset($users[$email]) && $users[$email]['password'] === $password) {
-        $_SESSION['user_id'] = 1;
-        $_SESSION['username'] = $email;
-        $_SESSION['role'] = $users[$email]['role'];
-
-        switch ($_SESSION['role']) {
-            case 'admin':
-                header('Location: ../Pages/index.php');
-                exit;
-            case 'seller':
-            case 'buyer':
-                header('Location: ../Pages/index.php');
-                exit;
-        }
+    if($email === 'admin@example.com' && $password === 'admin123') {
+        $_SESSION['email'] = $email;
+        header('Location: index.php');
+        exit();
     } else {
-        $loginError = "Invalid email or password.";
+        echo "Invalid login";
     }
 }
 ?>
