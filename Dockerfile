@@ -6,7 +6,7 @@ WORKDIR /var/www/html
 
 COPY . .
 
-RUN echo "DirectoryIndex loginPage.php" > /var/www/html/.htaccess
+RUN echo "DirectoryIndex Pages/index.php" >> /etc/apache2/apache2.conf
 
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html
