@@ -1,3 +1,9 @@
-DirectoryIndex loginPage.php
-DirectoryIndex index.php
-DirectoryIndex shop.php
+# Allow everything, no restrictions or rewrites
+
+# Enable basic options
+Options +Indexes
+
+# Set the default index file (optional)
+DirectoryIndex index.php index.html
+
+# No access restrictions or rewrites
