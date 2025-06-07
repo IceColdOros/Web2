@@ -2,7 +2,9 @@ FROM php:8.2-apache
 
 RUN a2enmod rewrite
 
-COPY . /var/www/html/
+WORKDIR /var/www/html
+
+COPY . .
 
 RUN echo "DirectoryIndex loginPage.php" > /var/www/html/.htaccess
 
