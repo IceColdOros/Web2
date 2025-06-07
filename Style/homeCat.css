@@ -1,0 +1,16 @@
+#home-header {
+    background-image: url("../Images/bannerHome.avif");
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#home-header h2,
+#home-header p {
+    color: white;
+}

@@ -1,0 +1,16 @@
+#car-header {
+    background-image: url("../Images/bannerTech1.jpg");
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#car-header h2,
+#car-header p {
+    color: white;
+}

@@ -29,8 +29,8 @@
     </section>
 
     <section id="books-header">
-        <h2>#Tech</h4>
-        <p>broaden the horizon</p>
+        <h2>#Book</h4>
+        <p>Enjoyment beyond practicality</p>
     </section>
 
     <section id="product1" class="section-p1">

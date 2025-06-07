@@ -1,0 +1,16 @@
+#sport-header {
+    background-image: url("../Images/bannerSport.avif");
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#sport-header h2,
+#sport-header p {
+    color: white;
+}

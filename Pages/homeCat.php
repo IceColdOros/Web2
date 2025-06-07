@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clothes</title>
+    <title>Technology</title>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
-    <link rel="stylesheet" href="../Style/clothesCat.css">
+    <link rel="stylesheet" href="../Style/homeCat.css">
     <link rel="stylesheet" href="../Style/styles.css">
 
 </head>
@@ -28,18 +28,18 @@
         </div>
     </section>
 
-    <section id="clothes-header">
-        <h2>#Clothes</h4>
-        <p>Explore in comfort</p>
+    <section id="home-header">
+        <h2>#Home</h4>
+        <p>The place of personalization</p>
     </section>
 
     <section id="product1" class="section-p1">
         <div class="pro-container">
             <div class="pro">
-                <img src="../Products/nikeShirt4.webp" alt="">
+                <img src="../Products/home1.jpg" alt="">
                 <div class="des">
-                    <span>Clothes</span>
-                    <h5>Nike Shirt | Lifestyle </h5>
+                    <span>Home</span>
+                    <h5>Dark Grey Curtain</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -47,15 +47,79 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R450</h4>
+                    <h4>R750</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/pro2example.webp" alt="">
+                <img src="../Products/home2.webp" alt="">
                 <div class="des">
-                    <span>Clothes</span>
-                    <h5>Graphic Shirt</h5>
+                    <span>Home</span>
+                    <h5>Light Grey Curtain</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R750</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/home3.jpeg" alt="">
+                <div class="des">
+                    <span>Home</span>
+                    <h5>Charcoal Curtain</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R750</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/homeCouch.webp" alt="">
+                <div class="des">
+                    <span>Home</span>
+                    <h5>Couch</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R6000</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/homeRug.jpg" alt="">
+                <div class="des">
+                    <span>Home</span>
+                    <h5>Rug</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R350</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="../Products/homeLamp.webp" alt="">
+                <div class="des">
+                    <span>Home</span>
+                    <h5>Lamp</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -68,10 +132,10 @@
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/clothesHoodie.webp" alt="">
+                <img src="../Products/homeSideTable.webp" alt="">
                 <div class="des">
-                    <span>Clothes</span>
-                    <h5>Hoodie</h5>
+                    <span>Home</span>
+                    <h5>Small Table</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -79,15 +143,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R500</h4>
+                    <h4>R260</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/nikePants1.webp" alt="">
+                <img src="../Products/homeTable.webp" alt="">
                 <div class="des">
-                    <span>Clothes</span>
-                    <h5>Nike Pants</h5>
+                    <span>Home</span>
+                    <h5>Table</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -95,71 +159,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R450</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/clothesHat.webp" alt="">
-                <div class="des">
-                    <span>Clothes</span>
-                    <h5>Hat</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R150</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/clothesHat2.webp" alt="">
-                <div class="des">
-                    <span>Clothes</span>
-                    <h5>Hat</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R150</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/nikeShoe2.webp" alt="">
-                <div class="des">
-                    <span>Clothes</span>
-                    <h5>Air Max</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R2600</h4>
-                </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="../Products/clothesShoe.webp" alt="">
-                <div class="des">
-                    <span>Clothes</span>
-                    <h5>Air Max</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>R3300</h4>
+                    <h4>R800</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
