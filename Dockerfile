@@ -4,8 +4,7 @@ RUN a2enmod rewrite
 
 COPY . /var/www/html/
 
-#Ensure login page loads first
-RUN echo "DirectoryIndex Pages/loginPage.php" > /var/www/html/.htaccess
+RUN echo "DirectoryIndex loginPage.php" > /var/www/html/.htaccess
 
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html
