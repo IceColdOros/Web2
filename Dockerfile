@@ -11,6 +11,8 @@ RUN chown -R www-data:www-data /var/www/html \
 
 RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
 
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+
 EXPOSE 80
 
 CMD ["apache2-foreground"]
