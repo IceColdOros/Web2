@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
     <link rel="stylesheet" href="../Style/techCat.css">
+    <link rel="stylesheet" href="../Style/styles.css">
+
 </head>
 <body>
 
