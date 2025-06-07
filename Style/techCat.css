@@ -1,0 +1,16 @@
+#tech-header {
+    background-image: url("../Images/bannerTech.avif");
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#tech-header h2,
+#tech-header p {
+    color: white;
+}
