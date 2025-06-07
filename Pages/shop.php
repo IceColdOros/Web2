@@ -286,6 +286,22 @@ if (!isset($_SESSION['user_id'])) {
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
+            <div class="pro">
+                <img src="../Products/techController.webp" alt="">
+                <div class="des">
+                    <span>Electronics</span>
+                    <h5>PS5 Controller</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R1375</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
         </div>
     </section>
 
