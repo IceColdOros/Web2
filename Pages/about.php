@@ -65,27 +65,27 @@ if (!isset($_SESSION['user_id'])) {
     </section>
 
     <section id="feature" class="section-p1">
-        <div class="fe-box">
+        <div class="fe-box" onclick="window.location.href='techCat.php'">
             <img src="../Images/cat1tech.png" alt="">
             <h6>Technology</h6>
         </div>
-        <div class="fe-box">
+        <div class="fe-box" onclick="window.location.href='clothesCat.php'">
             <img src="../Images/cat2clothes.png" alt="">
             <h6>Clothes</h6>
         </div>
-        <div class="fe-box">
+        <div class="fe-box" onclick="window.location.href='booksCat.php'">
             <img src="../Images/cat3book.png" alt="">
             <h6>Books</h6>
         </div>
-        <div class="fe-box">
+        <div class="fe-box" onclick="window.location.href='homeCat.php'">
             <img src="../Images/cat4home.png" alt="">
             <h6>Home</h6>
         </div>
-        <div class="fe-box">
+        <div class="fe-box" onclick="window.location.href='sportCat.php'">
             <img src="../Images/cat5sport.png" alt="">
             <h6>Sport</h6>
         </div>
-        <div class="fe-box">
+        <div class="fe-box" onclick="window.location.href='carCat.php'">
             <img src="../Images/cat6car.png" alt="">
             <h6>Car</h6>
         </div>
