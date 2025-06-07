@@ -1,5 +1,5 @@
-#tech-header {
-    background-image: url("../Images/bannerTech.avif");
+#books-header {
+    background-image: url("../Images/bannerBook.avif");
     width: 100%;
     height: 30vh;
     background-size: cover;
@@ -10,7 +10,7 @@
     padding: 14px;
 }
 
-#tech-header h2,
-#tech-header p {
+#books-header h2,
+#books-header p {
     color: white;
 }

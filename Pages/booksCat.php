@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technology</title>
+    <title>Books</title>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
-    <link rel="stylesheet" href="../Style/techCat.css">
+    <link rel="stylesheet" href="../Style/booksCat.css">
     <link rel="stylesheet" href="../Style/styles.css">
 
 </head>
@@ -28,7 +28,7 @@
         </div>
     </section>
 
-    <section id="tech-header">
+    <section id="books-header">
         <h2>#Tech</h4>
         <p>broaden the horizon</p>
     </section>
@@ -36,10 +36,10 @@
     <section id="product1" class="section-p1">
         <div class="pro-container">
             <div class="pro">
-                <img src="../Products/electronic2.webp" alt="">
+                <img src="../Products/book1.jpg" alt="">
                 <div class="des">
-                    <span>Electronics</span>
-                    <h5>JBL Headphones</h5>
+                    <span>Book</span>
+                    <h5>Mastery</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -47,15 +47,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R1500</h4>
+                    <h4>R500</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/electronic5.jpeg" alt="">
+                <img src="../Products/book2.png" alt="">
                 <div class="des">
-                    <span>Electronics</span>
-                    <h5>JBL TWS Earphones</h5>
+                    <span>Book</span>
+                    <h5>WAR</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -63,15 +63,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R1250</h4>
+                    <h4>R500</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/electronic3.webp" alt="">
+                <img src="../Products/catBook.jpg" alt="">
                 <div class="des">
-                    <span>Electronics</span>
-                    <h5>Keychron Keyboard</h5>
+                    <span>Book</span>
+                    <h5>Alexander The Great</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -79,15 +79,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R2350</h4>
+                    <h4>R380</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/electronic4.webp" alt="">
+                <img src="../Products/catBook3.jpg" alt="">
                 <div class="des">
-                    <span>Electronics</span>
-                    <h5>NVIDIA RTX 3090</h5>
+                    <span>Book</span>
+                    <h5>Hamlet</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -95,15 +95,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R23999</h4>
+                    <h4>R300</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/techLaptop.webp" alt="">
+                <img src="../Products/catBook2.webp" alt="">
                 <div class="des">
-                    <span>Electronics</span>
-                    <h5>MacBook Air</h5>
+                    <span>Book</span>
+                    <h5>AOT Manga</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -111,15 +111,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R22000</h4>
+                    <h4>R250</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/techController.webp" alt="">
+                <img src="../Products/catBook4.webp" alt="">
                 <div class="des">
-                    <span>Electronics</span>
-                    <h5>PS5 Controller</h5>
+                    <span>Book</span>
+                    <h5>Solo Leveling Manga</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -127,15 +127,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R1375</h4>
+                    <h4>R250</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/techPrinter.webp" alt="">
+                <img src="../Products/catBook6.jpg" alt="">
                 <div class="des">
-                    <span>Electronics</span>
-                    <h5>3D Printer</h5>
+                    <span>Book</span>
+                    <h5>Wind Breaker Manga</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -143,15 +143,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R13399</h4>
+                    <h4>R250</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
             <div class="pro">
-                <img src="../Products/techMonitor.jpg" alt="">
+                <img src="../Products/catBook7.jpg" alt="">
                 <div class="des">
-                    <span>Electronics</span>
-                    <h5>Monitor</h5>
+                    <span>Book</span>
+                    <h5>One Punch Man Manga</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -159,7 +159,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>R8650</h4>
+                    <h4>R250</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
