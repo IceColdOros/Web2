@@ -1,9 +1,4 @@
-# Allow everything, no restrictions or rewrites
-
-# Enable basic options
-Options +Indexes
-
-# Set the default index file (optional)
-DirectoryIndex index.php index.html
-
-# No access restrictions or rewrites
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
