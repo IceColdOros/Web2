@@ -1,6 +1,6 @@
 {
-  "buildCommand": null,
-  "startCommand": null,
+  "buildCommand": null,  
+  "startCommand": "php -S 0.0.0.0:${PORT} -t .",  
   "rootDirectory": ".",
   "dockerfilePath": "Dockerfile"
 }
