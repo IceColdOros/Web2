@@ -22,7 +22,7 @@ if ($email === 'admin@example.com' && $password === 'admin123') {
 } else {
     echo "<script>
         alert('Login failed. Incorrect email or password.');
-        window.location.href='../Backend/loginPage.php';
+        window.location.href='../Pages/loginPage.php';
     </script>";
     exit();
 }

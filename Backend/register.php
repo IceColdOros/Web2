@@ -18,7 +18,7 @@ else {
     $insertQuery = "INSERT INTO users(firstName,lastName,email,password)
                     VALUES ('$firstName','$lastName','$email','$password')";
         if($conn->query($insertQuery)==TRUE) {
-            header("location: login.php");
+            header("location: index.php");
         }
         else {
             echo "Error:".$conn->error;
@@ -38,7 +38,7 @@ else {
             session_start();
             $row=$result->fetch_assoc();
             $_SESSION['email']=$row['email'];
-            header('Location: homepage.php');
+            header('Location: index.php');
             exit();
         }
         else {
