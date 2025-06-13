@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if($email === 'admin@example.com' && $password === 'admin123') {
         $_SESSION['email'] = $email;
-        header('Location: /Pages/loginPage.php');
+        header('Location: /Pages/login.php');
         exit();
     } else {
         echo "Invalid login";

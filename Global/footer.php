@@ -30,7 +30,7 @@ echo '
 
         <div class="col">
             <h4>My Account</h4>
-            <a href="../Pages/loginPage.php">Sign In</a>
+            <a href="../Pages/login.php">Sign In</a>
             <a href="../Pages/cart.php">View Cart</a>
             <a href="#">My Wishlist</a>
             <a href="../Pages/orderTracking.php">Track My Order</a>

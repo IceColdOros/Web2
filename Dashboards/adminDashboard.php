@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['user_id']) || $_SESSION['user_type'] !== 'admin') {
-    header("Location: ../Pages/loginPage.php");
+    header("Location: ../Pages/login.php");
     exit;
 }
 ?>
