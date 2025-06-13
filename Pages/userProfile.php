@@ -1,15 +1,3 @@
-<?php
-session_start();
-
-if (!isset($_SESSION['username']) || !isset($_SESSION['role'])) {
-    header('Location: ../Backend/loginPage.php');
-    exit();
-}
-
-$email = $_SESSION['username'];
-$role = ucfirst($_SESSION['role']); // Capitalize first letter
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

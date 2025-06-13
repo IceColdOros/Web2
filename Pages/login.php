@@ -1,24 +1,3 @@
-<?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-session_start();
-
-$loginError = '';
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $email = $_POST['email'] ?? '';
-    $password = $_POST['password'] ?? '';
-
-    if($email === 'admin@example.com' && $password === 'admin123') {
-        $_SESSION['email'] = $email;
-        header('Location: /Pages/login.php');
-        exit();
-    } else {
-        echo "Invalid login";
-    }
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

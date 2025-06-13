@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -59,27 +56,27 @@
     </section>
 
     <section id="feature" class="section-p1">
-        <div class="fe-box" onclick="window.location.href='techCat.php'">
+        <div class="fe-box" onclick="window.location.href='/Pages/techCat.php'">
             <img src="../Images/cat1tech.png" alt="">
             <h6>Technology</h6>
         </div>
-        <div class="fe-box" onclick="window.location.href='clothesCat.php'">
+        <div class="fe-box" onclick="window.location.href='/Pages/clothesCat.php'">
             <img src="../Images/cat2clothes.png" alt="">
             <h6>Clothes</h6>
         </div>
-        <div class="fe-box" onclick="window.location.href='booksCat.php'">
+        <div class="fe-box" onclick="window.location.href='/Pages/booksCat.php'">
             <img src="../Images/cat3book.png" alt="">
             <h6>Books</h6>
         </div>
-        <div class="fe-box" onclick="window.location.href='homeCat.php'">
+        <div class="fe-box" onclick="window.location.href='/Pages/homeCat.php'">
             <img src="../Images/cat4home.png" alt="">
             <h6>Home</h6>
         </div>
-        <div class="fe-box" onclick="window.location.href='sportCat.php'">
+        <div class="fe-box" onclick="window.location.href='/Pages/sportCat.php'">
             <img src="../Images/cat5sport.png" alt="">
             <h6>Sport</h6>
         </div>
-        <div class="fe-box" onclick="window.location.href='carCat.php'">
+        <div class="fe-box" onclick="window.location.href='/Pages/carCat.php'">
             <img src="../Images/cat6car.png" alt="">
             <h6>Car</h6>
         </div>

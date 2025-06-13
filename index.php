@@ -1,12 +1,3 @@
-<?php
-session_start();
-if (!isset($_SESSION['email'])) {
-    header("Location: /Pages/login.php");
-    exit;
-}
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 

@@ -1,9 +1,3 @@
-<?php
-session_start();
-$userRole = $_SESSION['role'] ?? '';
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
