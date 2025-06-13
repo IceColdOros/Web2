@@ -1,5 +1,0 @@
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !\.php$      # ← NEW: Skip .php files
-RewriteRule ^(.*)$ index.php [QSA,L]    # Only redirect non-PHP routes
