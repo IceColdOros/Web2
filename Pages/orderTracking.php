@@ -20,7 +20,7 @@
     <a href="#"><img src="../Images/logo2Smaller.png" class="logo" alt=""></a>
     <div>
       <ul id="navbar">
-                    <li><a href="../Pages/index.php">Home</a></li>
+                    <li><a href="/index.php">Home</a></li>
                     <li><a href="../Pages/shop.php">Shop</a></li>
                     <li><a href="../Pages/blog.php">Blog</a></li>
                     <li><a href="../Pages/about.php">About</a></li>
